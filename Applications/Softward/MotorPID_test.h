@@ -1,0 +1,10 @@
+
+#ifndef RMC_ADAM_GENERALROBOTSYSTEMCODE_MOTORPID_TEST_H
+#define RMC_ADAM_GENERALROBOTSYSTEMCODE_MOTORPID_TEST_H
+
+#include "struct_typedef.h"
+
+
+void MotorON(float vx, float vy, float vw);
+
+#endif //RMC_ADAM_GENERALROBOTSYSTEMCODE_MOTORPID_TEST_H
