@@ -38,6 +38,7 @@
 #include "stm32f4xx_hal.h"
 #include "stm32f4xx_hal_tim.h"
 #include "PWM_control.h"
+#include "FIRE.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -151,15 +152,46 @@ void ChassisTask_callback(void *argument)
     /* Infinite loop */
     int i=1050;
     int j=0;
+    int FLAG=0;
   for(;;)
   {
 // //     MotorON(RC_data.rc.ch[0],RC_data.rc.ch[1],RC_data.rc.ch[2]);
    //// MotorSetDeg_3508(90);
                i++;
                j++;
-             __HAL_TIM_SetCompare(&htim1, TIM_CHANNEL_1,i);
-             __HAL_TIM_SetCompare(&htim1, TIM_CHANNEL_2,i);
-             __HAL_TIM_SetCompare(&htim1, TIM_CHANNEL_3,i);
+
+      //         Fire_test(RC_data.rc.ch[1]);
+      if(RC_data.rc.s[0]==RC_SW_UP){
+            FLAG=0;
+            Fire_test(2000);
+            if(FLAG==1)
+            count_i=0;
+            else
+                count_i=1;
+            FLAG=1;
+      }
+      else if(RC_data.rc.s[1]==RC_SW_DOWN){
+          FLAG=0;
+          Fire_test(1000);
+          if(FLAG==1)
+              count_i=0;
+          else
+              count_i=1;
+          FLAG=1;
+      }
+     // else if(RC_data.rc.s[1]==RC_SW_MID){
+     //     FLAG=0;
+     //     Fire_test(1000);
+     //     if(FLAG==1)
+     //         count_i=0;
+     //     else
+     //         count_i=1;
+     //     FLAG=1;
+     // }
+      //         Fire_Command();
+     //       __HAL_TIM_SetCompare(&htim1, TIM_CHANNEL_1,i);
+     //       __HAL_TIM_SetCompare(&htim1, TIM_CHANNEL_2,i);
+     //       __HAL_TIM_SetCompare(&htim1, TIM_CHANNEL_3,i);
              if(i>=1400){
                  i=1400  ;
              }
@@ -183,22 +215,22 @@ void RemoteTask_callback(void *argument)
   for(;;)
   {
 
-      set_servo_angle(servo_2,0.00f);
-      set_servo_angle(servo_3,0.00f);
-      set_servo_angle(servo_4,0.00f);
-      set_servo_angle(servo_5,0.00f);
-      set_servo_angle(servo_6,0.00f);
-      set_servo_angle(servo_7,0.00f);
-      set_servo_angle(servo_8,0.00f);
-    osDelay(2000);
-      set_servo_angle(servo_2,180.00f);
-      set_servo_angle(servo_3,180.00f);
-      set_servo_angle(servo_4,180.00f);
-      set_servo_angle(servo_5,180.00f);
-      set_servo_angle(servo_6,180.00f);
-      set_servo_angle(servo_7,180.00f);
-      set_servo_angle(servo_8,180.00f);
-      osDelay(2000);
+   //  set_servo_angle(servo_2,0.00f);
+   //  set_servo_angle(servo_3,0.00f);
+   //  set_servo_angle(servo_4,0.00f);
+   //  set_servo_angle(servo_5,0.00f);
+   //  set_servo_angle(servo_6,0.00f);
+   //  set_servo_angle(servo_7,0.00f);
+   //  set_servo_angle(servo_8,0.00f);
+   //osDelay(2000);
+   //  set_servo_angle(servo_2,180.00f);
+   //  set_servo_angle(servo_3,180.00f);
+   //  set_servo_angle(servo_4,180.00f);
+   //  set_servo_angle(servo_5,180.00f);
+   //  set_servo_angle(servo_6,180.00f);
+   //  set_servo_angle(servo_7,180.00f);
+   //  set_servo_angle(servo_8,180.00f);
+   //  osDelay(2000);
   }
   /* USER CODE END RemoteTask_callback */
 }

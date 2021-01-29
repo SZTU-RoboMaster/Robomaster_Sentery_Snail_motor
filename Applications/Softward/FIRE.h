@@ -15,6 +15,7 @@
 #define  FIRE_DOWN 1201         //低油门进程
 extern int move_speed;          //引入该变量进行油门逐步加速
 extern TIM_HandleTypeDef htim1;             //时钟初始化
+extern int count_i;
 typedef struct PWM_value_snail_motor{
     int f;
     int psc;
@@ -22,7 +23,7 @@ typedef struct PWM_value_snail_motor{
 }all_command;
 void Fire_Init();
 void Fire_Command();           //Fire_command 给出转速转速范围--1201-2201   -通过遥控器的拨杆实现
-void Fire_test();              //直接给出油门进程 范围同上  不通过遥控器控制
+void Fire_test(int Set_speed);              //直接给出油门进程 范围同上  不通过遥控器控制
 void Fire_off();               //电机关闭
-void Fire_special_Command();        //直接进行频率调节控制(调节分频值)     由于当前重载值设为19999，ABP2总线频率168Mhz 故计算公式为 psc=168*10^6/f/19999
+void Fire_special_Command(all_command *snail_command);        //直接进行频率调节控制(调节分频值)     由于当前重载值设为19999，ABP2总线频率168Mhz 故计算公式为 psc=168*10^6/f/19999
 #endif //RMC_CODE_FIRE_H

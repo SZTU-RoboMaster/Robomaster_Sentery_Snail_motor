@@ -36,8 +36,12 @@ void Fire_off(){
             __HAL_TIM_SetCompare(&htim1, TIM_CHANNEL_3,1000);
             __HAL_TIM_SetCompare(&htim1, TIM_CHANNEL_3,1000);
 }
-int move_speed;
+int move_speed=0;
+int count_i;
 void Fire_test(int Set_speed){
+    if(count_i==0) {
+        move_speed = 1000;
+    }
     move_speed++;
     if(move_speed>=Set_speed){
         move_speed=Set_speed;
@@ -55,18 +59,22 @@ void Fire_Command(){
         }
     }
     else if(DEBUG_SNAIL==0){
-        for(i=0;i<=10;i++){
-            led_show(GREEN);
-            osDelay(10);
-            led_show(GREEN);
-            osDelay(10);
+        for(i=0;i<=2;i++){
+   //         led_show(GREEN);
+            osDelay(1);
+            led_show(0);
         }
         if(RC_data.rc.s[0]==RC_SW_UP)          //左边的switch  低速模式
             Fire_test(1400);
         else if(RC_data.rc.s[0]==RC_SW_DOWN)      //右边的switch 高速模式
             Fire_test(1400);
         else
-            Fire_test(0);
+            Fire_off();
+        for(i=0;i<=2;i++){
+   //         led_show(RED);
+            osDelay(1);
+            led_show(0);
+        }
     }
     else if(DEBUG_SNAIL==2){
         for(int i;i<=10;i++){
