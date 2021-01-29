@@ -1,4 +1,4 @@
-# Install script for directory: G:/RobomasteR/code/FINALL_FOrmate/RMC_Code_modole_coding/PACKED_SNAIL_MOTOR_DRIVER
+# Install script for directory: G:/PACKED_SNAIL_MOTOR_DRIVER
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "G:/RobomasteR/code/FINALL_FOrmate/RMC_Code_modole_coding/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "G:/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

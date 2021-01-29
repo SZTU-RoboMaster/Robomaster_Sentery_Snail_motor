@@ -50,6 +50,7 @@ void Fire_test(int Set_speed){
 }
 void Fire_Command(){
     int i=0;
+    int FLAG=0;
     if(DEBUG_SNAIL==1){
         for(int i;i<=10;i++){
         led_show(RED);
@@ -64,12 +65,24 @@ void Fire_Command(){
             osDelay(1);
             led_show(0);
         }
-        if(RC_data.rc.s[0]==RC_SW_UP)          //左边的switch  低速模式
-            Fire_test(1400);
-        else if(RC_data.rc.s[0]==RC_SW_DOWN)      //右边的switch 高速模式
-            Fire_test(1400);
-        else
-            Fire_off();
+        if(RC_data.rc.s[0]==RC_SW_UP){
+            FLAG=0;
+            Fire_test(2000);
+            if(FLAG==1)
+                count_i=0;
+            else
+                count_i=1;
+            FLAG=1;
+        }
+        else if(RC_data.rc.s[1]==RC_SW_DOWN){
+            FLAG=0;
+            Fire_test(1000);
+            if(FLAG==1)
+                count_i=0;
+            else
+                count_i=1;
+            FLAG=1;
+        }
         for(i=0;i<=2;i++){
    //         led_show(RED);
             osDelay(1);

@@ -152,7 +152,7 @@ void ChassisTask_callback(void *argument)
     /* Infinite loop */
     int i=1050;
     int j=0;
-    int FLAG=0;
+
   for(;;)
   {
 // //     MotorON(RC_data.rc.ch[0],RC_data.rc.ch[1],RC_data.rc.ch[2]);
@@ -161,24 +161,7 @@ void ChassisTask_callback(void *argument)
                j++;
 
       //         Fire_test(RC_data.rc.ch[1]);
-      if(RC_data.rc.s[0]==RC_SW_UP){
-            FLAG=0;
-            Fire_test(2000);
-            if(FLAG==1)
-            count_i=0;
-            else
-                count_i=1;
-            FLAG=1;
-      }
-      else if(RC_data.rc.s[1]==RC_SW_DOWN){
-          FLAG=0;
-          Fire_test(1000);
-          if(FLAG==1)
-              count_i=0;
-          else
-              count_i=1;
-          FLAG=1;
-      }
+
      // else if(RC_data.rc.s[1]==RC_SW_MID){
      //     FLAG=0;
      //     Fire_test(1000);

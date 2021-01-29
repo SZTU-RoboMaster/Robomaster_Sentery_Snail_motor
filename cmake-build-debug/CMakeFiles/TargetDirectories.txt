@@ -1,3 +1,3 @@
-G:/RobomasteR/code/FINALL_FOrmate/RMC_Code_modole_coding/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/RMC_Code.elf.dir
-G:/RobomasteR/code/FINALL_FOrmate/RMC_Code_modole_coding/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/edit_cache.dir
-G:/RobomasteR/code/FINALL_FOrmate/RMC_Code_modole_coding/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+G:/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/RMC_Code.elf.dir
+G:/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/edit_cache.dir
+G:/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/rebuild_cache.dir

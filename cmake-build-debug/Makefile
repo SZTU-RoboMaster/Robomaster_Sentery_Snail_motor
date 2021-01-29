@@ -67,10 +67,10 @@ RM = "E:\clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = G:\RobomasteR\code\FINALL_FOrmate\RMC_Code_modole_coding\PACKED_SNAIL_MOTOR_DRIVER
+CMAKE_SOURCE_DIR = G:\PACKED_SNAIL_MOTOR_DRIVER
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = G:\RobomasteR\code\FINALL_FOrmate\RMC_Code_modole_coding\PACKED_SNAIL_MOTOR_DRIVER\cmake-build-debug
+CMAKE_BINARY_DIR = G:\PACKED_SNAIL_MOTOR_DRIVER\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\RobomasteR\code\FINALL_FOrmate\RMC_Code_modole_coding\PACKED_SNAIL_MOTOR_DRIVER\cmake-build-debug\CMakeFiles G:\RobomasteR\code\FINALL_FOrmate\RMC_Code_modole_coding\PACKED_SNAIL_MOTOR_DRIVER\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\PACKED_SNAIL_MOTOR_DRIVER\cmake-build-debug\CMakeFiles G:\PACKED_SNAIL_MOTOR_DRIVER\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\RobomasteR\code\FINALL_FOrmate\RMC_Code_modole_coding\PACKED_SNAIL_MOTOR_DRIVER\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\PACKED_SNAIL_MOTOR_DRIVER\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

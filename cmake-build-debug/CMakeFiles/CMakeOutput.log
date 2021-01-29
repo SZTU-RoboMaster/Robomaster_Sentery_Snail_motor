@@ -11,7 +11,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
 
-The C compiler identification is GNU, found in "G:/RobomasteR/code/FINALL_FOrmate/RMC_Code_modole_coding/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.o"
+The C compiler identification is GNU, found in "G:/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.o"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: D:/Program Files (x86)/GNU Tools Arm Embedded/9 2019-q4-major/bin/arm-none-eabi-g++.exe 
@@ -24,7 +24,7 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
 
-The CXX compiler identification is GNU, found in "G:/RobomasteR/code/FINALL_FOrmate/RMC_Code_modole_coding/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.o"
+The CXX compiler identification is GNU, found in "G:/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.o"
 
 Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
 arm-none-eabi-gcc.exe (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599]
@@ -33,36 +33,36 @@ This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 Determining if the C compiler works passed with the following output:
-Change Dir: G:/RobomasteR/code/FINALL_FOrmate/RMC_Code_modole_coding/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: G:/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe cmTC_aaf67/fast && D:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_aaf67.dir\build.make CMakeFiles/cmTC_aaf67.dir/build
-mingw32-make.exe[1]: Entering directory 'G:/RobomasteR/code/FINALL_FOrmate/RMC_Code_modole_coding/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_aaf67.dir/testCCompiler.c.obj
-"D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-gcc.exe"    -o CMakeFiles\cmTC_aaf67.dir\testCCompiler.c.obj   -c G:\RobomasteR\code\FINALL_FOrmate\RMC_Code_modole_coding\PACKED_SNAIL_MOTOR_DRIVER\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
-Linking C static library libcmTC_aaf67.a
-"E:\clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_aaf67.dir\cmake_clean_target.cmake
-"E:\clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_aaf67.dir\link.txt --verbose=1
-arm-none-eabi-ar qc libcmTC_aaf67.a  CMakeFiles/cmTC_aaf67.dir/testCCompiler.c.obj
-"D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-ranlib.exe" libcmTC_aaf67.a
-mingw32-make.exe[1]: Leaving directory 'G:/RobomasteR/code/FINALL_FOrmate/RMC_Code_modole_coding/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):D:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe cmTC_495c9/fast && D:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_495c9.dir\build.make CMakeFiles/cmTC_495c9.dir/build
+mingw32-make.exe[1]: Entering directory 'G:/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_495c9.dir/testCCompiler.c.obj
+"D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-gcc.exe"    -o CMakeFiles\cmTC_495c9.dir\testCCompiler.c.obj   -c G:\PACKED_SNAIL_MOTOR_DRIVER\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C static library libcmTC_495c9.a
+"E:\clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_495c9.dir\cmake_clean_target.cmake
+"E:\clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_495c9.dir\link.txt --verbose=1
+arm-none-eabi-ar qc libcmTC_495c9.a  CMakeFiles/cmTC_495c9.dir/testCCompiler.c.obj
+"D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-ranlib.exe" libcmTC_495c9.a
+mingw32-make.exe[1]: Leaving directory 'G:/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: G:/RobomasteR/code/FINALL_FOrmate/RMC_Code_modole_coding/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: G:/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe cmTC_eca47/fast && D:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_eca47.dir\build.make CMakeFiles/cmTC_eca47.dir/build
-mingw32-make.exe[1]: Entering directory 'G:/RobomasteR/code/FINALL_FOrmate/RMC_Code_modole_coding/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_eca47.dir/CMakeCCompilerABI.c.obj
-"D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-gcc.exe"   -v -o CMakeFiles\cmTC_eca47.dir\CMakeCCompilerABI.c.obj   -c "E:\clion\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c"
+Run Build Command(s):D:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe cmTC_0ba34/fast && D:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_0ba34.dir\build.make CMakeFiles/cmTC_0ba34.dir/build
+mingw32-make.exe[1]: Entering directory 'G:/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ba34.dir/CMakeCCompilerABI.c.obj
+"D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-gcc.exe"   -v -o CMakeFiles\cmTC_0ba34.dir\CMakeCCompilerABI.c.obj   -c "E:\clion\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c"
 Using built-in specs.
 COLLECT_GCC=D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-gcc.exe
 Target: arm-none-eabi
 Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile
 Thread model: single
 gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_eca47.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
- d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/cc1.exe -quiet -v -iprefix d:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/ -isysroot d:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../arm-none-eabi -D__USES_INITFINI__ E:\clion\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_eca47.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\AZURED~1\AppData\Local\Temp\cc74COk9.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0ba34.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/cc1.exe -quiet -v -iprefix d:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/ -isysroot d:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../arm-none-eabi -D__USES_INITFINI__ E:\clion\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_0ba34.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\AZURED~1\AppData\Local\Temp\cczWypQt.s
 GNU C17 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)
 	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
 
@@ -83,18 +83,18 @@ GNU C17 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: d48d906eaae8455a6540c74ba2cbe16a
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_eca47.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
- d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_eca47.dir\CMakeCCompilerABI.c.obj C:\Users\AZURED~1\AppData\Local\Temp\cc74COk9.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0ba34.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_0ba34.dir\CMakeCCompilerABI.c.obj C:\Users\AZURED~1\AppData\Local\Temp\cczWypQt.s
 GNU assembler version 2.33.1 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 2.33.1.20191025
 COMPILER_PATH=d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/;d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/;d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/;d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/;d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/;d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_eca47.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
-Linking C static library libcmTC_eca47.a
-"E:\clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_eca47.dir\cmake_clean_target.cmake
-"E:\clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_eca47.dir\link.txt --verbose=1
-arm-none-eabi-ar qc libcmTC_eca47.a  CMakeFiles/cmTC_eca47.dir/CMakeCCompilerABI.c.obj
-"D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-ranlib.exe" libcmTC_eca47.a
-mingw32-make.exe[1]: Leaving directory 'G:/RobomasteR/code/FINALL_FOrmate/RMC_Code_modole_coding/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0ba34.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking C static library libcmTC_0ba34.a
+"E:\clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_0ba34.dir\cmake_clean_target.cmake
+"E:\clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0ba34.dir\link.txt --verbose=1
+arm-none-eabi-ar qc libcmTC_0ba34.a  CMakeFiles/cmTC_0ba34.dir/CMakeCCompilerABI.c.obj
+"D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-ranlib.exe" libcmTC_0ba34.a
+mingw32-make.exe[1]: Leaving directory 'G:/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
@@ -113,20 +113,20 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: G:/RobomasteR/code/FINALL_FOrmate/RMC_Code_modole_coding/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: G:/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):D:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe cmTC_eca47/fast && D:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_eca47.dir\build.make CMakeFiles/cmTC_eca47.dir/build]
-  ignore line: [mingw32-make.exe[1]: Entering directory 'G:/RobomasteR/code/FINALL_FOrmate/RMC_Code_modole_coding/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_eca47.dir/CMakeCCompilerABI.c.obj]
-  ignore line: ["D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-gcc.exe"   -v -o CMakeFiles\cmTC_eca47.dir\CMakeCCompilerABI.c.obj   -c "E:\clion\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Run Build Command(s):D:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe cmTC_0ba34/fast && D:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_0ba34.dir\build.make CMakeFiles/cmTC_0ba34.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'G:/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_0ba34.dir/CMakeCCompilerABI.c.obj]
+  ignore line: ["D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-gcc.exe"   -v -o CMakeFiles\cmTC_0ba34.dir\CMakeCCompilerABI.c.obj   -c "E:\clion\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c"]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-gcc.exe]
   ignore line: [Target: arm-none-eabi]
   ignore line: [Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile]
   ignore line: [Thread model: single]
   ignore line: [gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_eca47.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-  ignore line: [ d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/cc1.exe -quiet -v -iprefix d:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/ -isysroot d:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../arm-none-eabi -D__USES_INITFINI__ E:\clion\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_eca47.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\AZURED~1\AppData\Local\Temp\cc74COk9.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0ba34.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/cc1.exe -quiet -v -iprefix d:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/ -isysroot d:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../arm-none-eabi -D__USES_INITFINI__ E:\clion\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_0ba34.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\AZURED~1\AppData\Local\Temp\cczWypQt.s]
   ignore line: [GNU C17 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
   ignore line: []
@@ -147,8 +147,8 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: d48d906eaae8455a6540c74ba2cbe16a]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_eca47.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-  ignore line: [ d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_eca47.dir\CMakeCCompilerABI.c.obj C:\Users\AZURED~1\AppData\Local\Temp\cc74COk9.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0ba34.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_0ba34.dir\CMakeCCompilerABI.c.obj C:\Users\AZURED~1\AppData\Local\Temp\cczWypQt.s]
   ignore line: [GNU assembler version 2.33.1 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 2.33.1.20191025]
   ignore line: [COMPILER_PATH=d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/]
   ignore line: [d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/]
@@ -157,13 +157,13 @@ Parsed C implicit link information from above output:
   ignore line: [d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/]
   ignore line: [d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/]
   ignore line: [d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_eca47.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-  ignore line: [Linking C static library libcmTC_eca47.a]
-  ignore line: ["E:\clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_eca47.dir\cmake_clean_target.cmake]
-  ignore line: ["E:\clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_eca47.dir\link.txt --verbose=1]
-  ignore line: [arm-none-eabi-ar qc libcmTC_eca47.a  CMakeFiles/cmTC_eca47.dir/CMakeCCompilerABI.c.obj]
-  ignore line: ["D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-ranlib.exe" libcmTC_eca47.a]
-  ignore line: [mingw32-make.exe[1]: Leaving directory 'G:/RobomasteR/code/FINALL_FOrmate/RMC_Code_modole_coding/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0ba34.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [Linking C static library libcmTC_0ba34.a]
+  ignore line: ["E:\clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_0ba34.dir\cmake_clean_target.cmake]
+  ignore line: ["E:\clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0ba34.dir\link.txt --verbose=1]
+  ignore line: [arm-none-eabi-ar qc libcmTC_0ba34.a  CMakeFiles/cmTC_0ba34.dir/CMakeCCompilerABI.c.obj]
+  ignore line: ["D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-ranlib.exe" libcmTC_0ba34.a]
+  ignore line: [mingw32-make.exe[1]: Leaving directory 'G:/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp']
   ignore line: []
   ignore line: []
   implicit libs: []
@@ -172,36 +172,36 @@ Parsed C implicit link information from above output:
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: G:/RobomasteR/code/FINALL_FOrmate/RMC_Code_modole_coding/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: G:/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe cmTC_2bb9f/fast && D:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_2bb9f.dir\build.make CMakeFiles/cmTC_2bb9f.dir/build
-mingw32-make.exe[1]: Entering directory 'G:/RobomasteR/code/FINALL_FOrmate/RMC_Code_modole_coding/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2bb9f.dir/testCXXCompiler.cxx.obj
-"D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-g++.exe"     -o CMakeFiles\cmTC_2bb9f.dir\testCXXCompiler.cxx.obj -c G:\RobomasteR\code\FINALL_FOrmate\RMC_Code_modole_coding\PACKED_SNAIL_MOTOR_DRIVER\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-Linking CXX static library libcmTC_2bb9f.a
-"E:\clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_2bb9f.dir\cmake_clean_target.cmake
-"E:\clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_2bb9f.dir\link.txt --verbose=1
-arm-none-eabi-ar qc libcmTC_2bb9f.a  CMakeFiles/cmTC_2bb9f.dir/testCXXCompiler.cxx.obj
-"D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-ranlib.exe" libcmTC_2bb9f.a
-mingw32-make.exe[1]: Leaving directory 'G:/RobomasteR/code/FINALL_FOrmate/RMC_Code_modole_coding/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):D:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe cmTC_d85dc/fast && D:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d85dc.dir\build.make CMakeFiles/cmTC_d85dc.dir/build
+mingw32-make.exe[1]: Entering directory 'G:/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d85dc.dir/testCXXCompiler.cxx.obj
+"D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-g++.exe"     -o CMakeFiles\cmTC_d85dc.dir\testCXXCompiler.cxx.obj -c G:\PACKED_SNAIL_MOTOR_DRIVER\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX static library libcmTC_d85dc.a
+"E:\clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_d85dc.dir\cmake_clean_target.cmake
+"E:\clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d85dc.dir\link.txt --verbose=1
+arm-none-eabi-ar qc libcmTC_d85dc.a  CMakeFiles/cmTC_d85dc.dir/testCXXCompiler.cxx.obj
+"D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-ranlib.exe" libcmTC_d85dc.a
+mingw32-make.exe[1]: Leaving directory 'G:/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: G:/RobomasteR/code/FINALL_FOrmate/RMC_Code_modole_coding/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: G:/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe cmTC_36ae8/fast && D:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_36ae8.dir\build.make CMakeFiles/cmTC_36ae8.dir/build
-mingw32-make.exe[1]: Entering directory 'G:/RobomasteR/code/FINALL_FOrmate/RMC_Code_modole_coding/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_36ae8.dir/CMakeCXXCompilerABI.cpp.obj
-"D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-g++.exe"    -v -o CMakeFiles\cmTC_36ae8.dir\CMakeCXXCompilerABI.cpp.obj -c "E:\clion\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"
+Run Build Command(s):D:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe cmTC_83310/fast && D:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_83310.dir\build.make CMakeFiles/cmTC_83310.dir/build
+mingw32-make.exe[1]: Entering directory 'G:/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_83310.dir/CMakeCXXCompilerABI.cpp.obj
+"D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-g++.exe"    -v -o CMakeFiles\cmTC_83310.dir\CMakeCXXCompilerABI.cpp.obj -c "E:\clion\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"
 Using built-in specs.
 COLLECT_GCC=D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-g++.exe
 Target: arm-none-eabi
 Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile
 Thread model: single
 gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_36ae8.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
- d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/cc1plus.exe -quiet -v -iprefix d:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/ -isysroot d:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../arm-none-eabi -D__USES_INITFINI__ E:\clion\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_36ae8.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\AZURED~1\AppData\Local\Temp\cc0YnBmp.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_83310.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/cc1plus.exe -quiet -v -iprefix d:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/ -isysroot d:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../arm-none-eabi -D__USES_INITFINI__ E:\clion\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_83310.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\AZURED~1\AppData\Local\Temp\cczMhhzV.s
 GNU C++14 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)
 	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
 
@@ -228,18 +228,18 @@ GNU C++14 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 170ff1c01984ee844c36675da8099675
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_36ae8.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
- d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_36ae8.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\AZURED~1\AppData\Local\Temp\cc0YnBmp.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_83310.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+ d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_83310.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\AZURED~1\AppData\Local\Temp\cczMhhzV.s
 GNU assembler version 2.33.1 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 2.33.1.20191025
 COMPILER_PATH=d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/;d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/;d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/;d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/;d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/;d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_36ae8.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
-Linking CXX static library libcmTC_36ae8.a
-"E:\clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_36ae8.dir\cmake_clean_target.cmake
-"E:\clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_36ae8.dir\link.txt --verbose=1
-arm-none-eabi-ar qc libcmTC_36ae8.a  CMakeFiles/cmTC_36ae8.dir/CMakeCXXCompilerABI.cpp.obj
-"D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-ranlib.exe" libcmTC_36ae8.a
-mingw32-make.exe[1]: Leaving directory 'G:/RobomasteR/code/FINALL_FOrmate/RMC_Code_modole_coding/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_83310.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t'
+Linking CXX static library libcmTC_83310.a
+"E:\clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_83310.dir\cmake_clean_target.cmake
+"E:\clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_83310.dir\link.txt --verbose=1
+arm-none-eabi-ar qc libcmTC_83310.a  CMakeFiles/cmTC_83310.dir/CMakeCXXCompilerABI.cpp.obj
+"D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-ranlib.exe" libcmTC_83310.a
+mingw32-make.exe[1]: Leaving directory 'G:/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 
@@ -264,20 +264,20 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: G:/RobomasteR/code/FINALL_FOrmate/RMC_Code_modole_coding/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: G:/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):D:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe cmTC_36ae8/fast && D:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_36ae8.dir\build.make CMakeFiles/cmTC_36ae8.dir/build]
-  ignore line: [mingw32-make.exe[1]: Entering directory 'G:/RobomasteR/code/FINALL_FOrmate/RMC_Code_modole_coding/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_36ae8.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: ["D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-g++.exe"    -v -o CMakeFiles\cmTC_36ae8.dir\CMakeCXXCompilerABI.cpp.obj -c "E:\clion\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Run Build Command(s):D:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe cmTC_83310/fast && D:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/mingw32-make.exe  -f CMakeFiles\cmTC_83310.dir\build.make CMakeFiles/cmTC_83310.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'G:/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_83310.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: ["D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-g++.exe"    -v -o CMakeFiles\cmTC_83310.dir\CMakeCXXCompilerABI.cpp.obj -c "E:\clion\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-g++.exe]
   ignore line: [Target: arm-none-eabi]
   ignore line: [Configured with: /mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-9-pipeline/jenkins-GCC-9-pipeline-100_20191030_1572397542/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile]
   ignore line: [Thread model: single]
   ignore line: [gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_36ae8.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-  ignore line: [ d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/cc1plus.exe -quiet -v -iprefix d:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/ -isysroot d:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../arm-none-eabi -D__USES_INITFINI__ E:\clion\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_36ae8.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\AZURED~1\AppData\Local\Temp\cc0YnBmp.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_83310.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/cc1plus.exe -quiet -v -iprefix d:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../lib/gcc/arm-none-eabi/9.2.1/ -isysroot d:\program files (x86)\gnu tools arm embedded\9 2019-q4-major\bin\../arm-none-eabi -D__USES_INITFINI__ E:\clion\CLion 2020.3.1\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -march=armv4t -auxbase-strip CMakeFiles\cmTC_83310.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\AZURED~1\AppData\Local\Temp\cczMhhzV.s]
   ignore line: [GNU C++14 (GNU Tools for Arm Embedded Processors 9-2019-q4-major) version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
   ignore line: []
@@ -304,8 +304,8 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 170ff1c01984ee844c36675da8099675]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_36ae8.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-  ignore line: [ d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_36ae8.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\AZURED~1\AppData\Local\Temp\cc0YnBmp.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_83310.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [ d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_83310.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\AZURED~1\AppData\Local\Temp\cczMhhzV.s]
   ignore line: [GNU assembler version 2.33.1 (arm-none-eabi) using BFD version (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 2.33.1.20191025]
   ignore line: [COMPILER_PATH=d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/]
   ignore line: [d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/]
@@ -314,13 +314,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/]
   ignore line: [d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/]
   ignore line: [d:/program files (x86)/gnu tools arm embedded/9 2019-q4-major/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_36ae8.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
-  ignore line: [Linking CXX static library libcmTC_36ae8.a]
-  ignore line: ["E:\clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_36ae8.dir\cmake_clean_target.cmake]
-  ignore line: ["E:\clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_36ae8.dir\link.txt --verbose=1]
-  ignore line: [arm-none-eabi-ar qc libcmTC_36ae8.a  CMakeFiles/cmTC_36ae8.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: ["D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-ranlib.exe" libcmTC_36ae8.a]
-  ignore line: [mingw32-make.exe[1]: Leaving directory 'G:/RobomasteR/code/FINALL_FOrmate/RMC_Code_modole_coding/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_83310.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-march=armv4t']
+  ignore line: [Linking CXX static library libcmTC_83310.a]
+  ignore line: ["E:\clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -P CMakeFiles\cmTC_83310.dir\cmake_clean_target.cmake]
+  ignore line: ["E:\clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_83310.dir\link.txt --verbose=1]
+  ignore line: [arm-none-eabi-ar qc libcmTC_83310.a  CMakeFiles/cmTC_83310.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: ["D:\Program Files (x86)\GNU Tools Arm Embedded\9 2019-q4-major\bin\arm-none-eabi-ranlib.exe" libcmTC_83310.a]
+  ignore line: [mingw32-make.exe[1]: Leaving directory 'G:/PACKED_SNAIL_MOTOR_DRIVER/cmake-build-debug/CMakeFiles/CMakeTmp']
   ignore line: []
   ignore line: []
   implicit libs: []

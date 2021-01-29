@@ -63,10 +63,10 @@ RM = "E:\clion\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = G:\RobomasteR\code\FINALL_FOrmate\RMC_Code_modole_coding\PACKED_SNAIL_MOTOR_DRIVER
+CMAKE_SOURCE_DIR = G:\PACKED_SNAIL_MOTOR_DRIVER
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = G:\RobomasteR\code\FINALL_FOrmate\RMC_Code_modole_coding\PACKED_SNAIL_MOTOR_DRIVER\cmake-build-debug
+CMAKE_BINARY_DIR = G:\PACKED_SNAIL_MOTOR_DRIVER\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -93,14 +93,14 @@ clean: CMakeFiles/RMC_Code.elf.dir/clean
 CMakeFiles/RMC_Code.elf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RMC_Code.elf.dir\build.make CMakeFiles/RMC_Code.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RMC_Code.elf.dir\build.make CMakeFiles/RMC_Code.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\RobomasteR\code\FINALL_FOrmate\RMC_Code_modole_coding\PACKED_SNAIL_MOTOR_DRIVER\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64 "Built target RMC_Code.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\PACKED_SNAIL_MOTOR_DRIVER\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64 "Built target RMC_Code.elf"
 .PHONY : CMakeFiles/RMC_Code.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/RMC_Code.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\RobomasteR\code\FINALL_FOrmate\RMC_Code_modole_coding\PACKED_SNAIL_MOTOR_DRIVER\cmake-build-debug\CMakeFiles 64
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\PACKED_SNAIL_MOTOR_DRIVER\cmake-build-debug\CMakeFiles 64
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/RMC_Code.elf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\RobomasteR\code\FINALL_FOrmate\RMC_Code_modole_coding\PACKED_SNAIL_MOTOR_DRIVER\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\PACKED_SNAIL_MOTOR_DRIVER\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/RMC_Code.elf.dir/rule
 
 # Convenience name for target.
